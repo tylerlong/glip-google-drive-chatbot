@@ -1,4 +1,4 @@
-# RingCentral Google Drive Chatbot
+# Glip Google Drive Chatbot
 
 This chatbot can notify you when there are changes in your Google Drive.
 

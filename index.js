@@ -8,4 +8,4 @@ const handle = async event => {
 const app = createApp(handle, [
   googleDriveSkill
 ])
-app.listen(3000)
+app.listen(process.env.RINGCENTRAL_CHATBOT_EXPRESS_PORT)

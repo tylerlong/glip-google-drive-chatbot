@@ -2,7 +2,7 @@
 
 This chatbot can notify you when there are changes in your Google Drive.
 
-![](Glip_Google_Drive_Chatbot.png)
+![](screenshot.png)
 
 
 ## Setup

@@ -1,10 +1,8 @@
 import serverlessHTTP from 'serverless-http'
 import { createAsyncProxy } from 'ringcentral-chatbot/dist/lambda'
 import axios from 'axios'
-import createApp from 'ringcentral-chatbot/dist/apps'
-import googleDriveSkill from 'ringcentral-chatbot-skill-google-drive'
 
-const app = createApp(undefined, [googleDriveSkill])
+import app from './app'
 
 module.exports.app = serverlessHTTP(app)
 

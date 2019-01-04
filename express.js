@@ -1,8 +1,7 @@
-import createApp from 'ringcentral-chatbot/dist/apps'
-import googleDriveSkill from 'ringcentral-chatbot-skill-google-drive'
 import axios from 'axios'
 
-const app = createApp(undefined, [googleDriveSkill])
+import app from './app'
+
 app.listen(process.env.RINGCENTRAL_CHATBOT_EXPRESS_PORT)
 
 setInterval(async () => {

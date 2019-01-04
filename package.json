@@ -2,9 +2,10 @@
   "license": "MIT",
   "scripts": {
     "ngrok": "ngrok http -region ap 3000",
-    "start": "node -r @babel/register -r dotenv/config index.js"
+    "dev": "node -r @babel/register -r dotenv/config express.js"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "ringcentral-chatbot": "^0.4.6",
     "ringcentral-chatbot-skill-google-drive": "^0.1.3"
   },

@@ -3506,7 +3506,7 @@ merge-descriptors@1.0.1:
   resolved "https://registry.yarnpkg.com/merge-descriptors/-/merge-descriptors-1.0.1.tgz#b00aaa556dd8b44568150ec9d1b953f3f90cbb61"
   integrity sha1-sAqqVW3YtEVoFQ7J0blT8/kMu2E=
 
-methods@^1.1.1, methods@~1.1.2:
+methods@^1.1.1, methods@^1.1.2, methods@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/methods/-/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
   integrity sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=
@@ -4633,18 +4633,18 @@ rimraf@^2.2.8, rimraf@^2.6.1, rimraf@~2.6.2:
   dependencies:
     glob "^7.1.3"
 
-ringcentral-chatbot-skill-google-drive@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/ringcentral-chatbot-skill-google-drive/-/ringcentral-chatbot-skill-google-drive-0.1.4.tgz#cd8a088495bda917812d844ffecdbd6635efd521"
-  integrity sha512-FNoy4rdZTqlL+R6gusRDn8GQw7V8TB+wWtMhMVSpmm824Wix48DIQ0BpWeIGPABy9mw1lxr7GjqZ05qQY982cw==
+ringcentral-chatbot-skill-google-drive@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/ringcentral-chatbot-skill-google-drive/-/ringcentral-chatbot-skill-google-drive-0.1.5.tgz#94e3d16bf416b5450b4ff2c2de3c1c25a8f9b75c"
+  integrity sha512-LbCqikS6FjUTinT2V2DWF7D1BUw+hfhMR0larNlSQrUgXWL+qFy0+Xz4u70W8YI+fM4hWS6J1GGfd/OLxbJaVg==
   dependencies:
     googleapis "^36.0.0"
     uuid "^3.3.2"
 
-ringcentral-chatbot@^0.4.6:
-  version "0.4.6"
-  resolved "https://registry.yarnpkg.com/ringcentral-chatbot/-/ringcentral-chatbot-0.4.6.tgz#12ebd1dd6525b8a94a6ec35165c2d1d5f99aa09c"
-  integrity sha512-fsHRvqCc3XA1zZwkTn7Vhe0hoTnxEbHQeU7bdZhNyJLGOosjXExbQHLiGXiDxb54JZw6Y1VqvqGGExxY5GWRlA==
+ringcentral-chatbot@^0.4.7:
+  version "0.4.7"
+  resolved "https://registry.yarnpkg.com/ringcentral-chatbot/-/ringcentral-chatbot-0.4.7.tgz#74bd69726a7ec1f1138c5a089e011189cd06bd33"
+  integrity sha512-YM3IorLi9BaQslhjtjIRZsUfj6wtauP8wcf3N3tHkHZ2OPyWmZ46Q7Cfvxy5SycPHgrzXoDahbce66GhINOVKQ==
   dependencies:
     aws-sdk "^2.382.0"
     axios "^0.18.0"
@@ -4653,6 +4653,7 @@ ringcentral-chatbot@^0.4.6:
     form-data "^2.3.3"
     ringcentral-js-concise "^0.7.6"
     sequelize "^4.42.0"
+    supertest "^3.3.0"
     timeout-as-promise "^1.0.0"
 
 ringcentral-js-concise@^0.7.6:
@@ -5196,6 +5197,14 @@ superagent@^3.8.3:
     mime "^1.4.1"
     qs "^6.5.1"
     readable-stream "^2.3.5"
+
+supertest@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/supertest/-/supertest-3.3.0.tgz#79b27bd7d34392974ab33a31fa51a3e23385987e"
+  integrity sha512-dMQSzYdaZRSANH5LL8kX3UpgK9G1LRh/jnggs/TI0W2Sz7rkMx9Y48uia3K9NgcaWEV28tYkBnXE4tiFC77ygQ==
+  dependencies:
+    methods "^1.1.2"
+    superagent "^3.8.3"
 
 supports-color@^2.0.0:
   version "2.0.0"

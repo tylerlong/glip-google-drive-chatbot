@@ -9,8 +9,8 @@ module.exports.app = serverlessHTTP(app)
 
 // for google site verification
 const filterApp = express()
-filterApp.get('/google/webhook/googlece5a6e1d27e7fa99.html', (req, res) => {
-  res.send('google-site-verification: googlece5a6e1d27e7fa99.html')
+filterApp.get(`/${process.env.GOOGLE_SITE_VERIFICATION}`, (req, res) => {
+  res.send(`google-site-verification: ${process.env.GOOGLE_SITE_VERIFICATION}`)
 })
 
 module.exports.proxy = createAsyncProxy('app', filterApp)

@@ -4641,10 +4641,10 @@ ringcentral-chatbot-skill-google-drive@^0.1.5:
     googleapis "^36.0.0"
     uuid "^3.3.2"
 
-ringcentral-chatbot@^0.4.7:
-  version "0.4.7"
-  resolved "https://registry.yarnpkg.com/ringcentral-chatbot/-/ringcentral-chatbot-0.4.7.tgz#74bd69726a7ec1f1138c5a089e011189cd06bd33"
-  integrity sha512-YM3IorLi9BaQslhjtjIRZsUfj6wtauP8wcf3N3tHkHZ2OPyWmZ46Q7Cfvxy5SycPHgrzXoDahbce66GhINOVKQ==
+ringcentral-chatbot@^0.4.8:
+  version "0.4.8"
+  resolved "https://registry.yarnpkg.com/ringcentral-chatbot/-/ringcentral-chatbot-0.4.8.tgz#0cd17b1e8fc20dec0919d5221078da9e81f01d0b"
+  integrity sha512-Lq7R79M7xnQpJNlhQeF26EcjdwkZPCUQn1WFR+MzOcmCmcSsESmOpbxB9dmPoSqjNel//RKOKIReG2XO0UVjcQ==
   dependencies:
     aws-sdk "^2.382.0"
     axios "^0.18.0"
